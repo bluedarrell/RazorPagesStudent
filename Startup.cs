@@ -27,7 +27,7 @@ namespace RazorPagesStudent
             services.AddRazorPages();
 
             services.AddDbContext<RazorPagesStudentContext>(options =>
-                    options.UseSqlite(Configuration.GetConnectionString("RazorPagesStudentContext")));
+                   options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
