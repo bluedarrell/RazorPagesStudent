@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/5e345896-dea9-46b8-859a-504a5cab5df4/resourceGroups/Cycle48/providers/Microsoft.Web/sites/RazorDB"
+}
